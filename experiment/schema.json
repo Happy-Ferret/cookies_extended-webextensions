@@ -1,0 +1,25 @@
+[
+  {
+    "namespace": "cookies",
+    "description": "Extend browser.cookies",
+    "permissions": [
+      "experiments.cookies"
+    ],
+    "functions": [
+      {
+        "name": "disableGlobal",
+        "type": "function",
+        "description": "Disables Browser Cookies.",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "enableGlobal",
+        "type": "function",
+        "description": "Enables Browser Cookies.",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]
